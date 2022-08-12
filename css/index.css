@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+
+  margin-left: 10px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.nav-items {
+  display: flex;
+  flex: 0.5;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-item {
+  color: #7c7a7a;
+}
+
+.active-item {
+  color: orange;
+}
+
+.intro-section {
+  display: flex;
+  position: relative;
+}
+
+.left-section {
+  display: column;
+  flex: 1;
+  position: relative;
+  top: 100px;
+}
+h3 {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
+div h3 img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 9px;
+  right: 10px;
+}
+
+h1 {
+  width: 100%;
+  font-size: 74px;
+}
+
+.sub-headlines {
+  position: relative;
+  left: 80px;
+  top: 15px;
+  width: 100%;
+}
+
+.sub-headlines .sub-headline img {
+  background-color: #ff4800;
+  width: 1%;
+  height: 1%;
+  padding: 5px;
+  border-radius: 10px;
+}
+h5 {
+  color: #525050;
+  font-size: 23px;
+  line-height: 1.9;
+}
+
+.text {
+  margin-top: 71px;
+  width: 70%;
+  line-height: 1.5;
+}
+
+.action-btns {
+  left: 0%;
+  position: absolute;
+}
+
+.action-btn {
+  background-color: #ff4800;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  width: 120px;
+  margin-top: 10px;
+}
+
+.right-section {
+  position: relative;
+  top: 30px;
+  right: 200px;
+  text-align: center;
+}
+
+.headphone-div {
+  display: flex;
+}
+
+.discount {
+  position: absolute;
+  width: 32%;
+  height: 32%;
+  bottom: 80px;
+  left: 75px;
+}
+
+.discount-content {
+  position: relative;
+  top: 228px;
+  left: 90px;
+
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.dots {
+  position: absolute;
+  display: flex;
+  margin-top: 30px;
+
+  text-align: center;
+  left: 300px;
+}
+
+.yellow-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.tomato-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: pink;
+}
+.black-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: black;
+}
+.right-section .headphone-div + .dots + .action-btn {
+  position: absolute;
+  bottom: -110px;
+  left: 300px;
+}
